@@ -94,7 +94,7 @@ ansible-playbook deploy-webservers.yml -i inventory.ini
 
 A detailed step-by-step article covering this entire project, including architecture decisions, challenges faced, and key concepts is available here:
 
-**[Read the full article →]** *(Add your Medium/Hashnode link here)*
+**[Read the full article →](https://medium.com/@emmanuelkaringi/secure-web-application-deployment-on-aws-using-ansible-and-load-balancing-e5a717737f61)**
 
 ---
 
@@ -113,6 +113,8 @@ To avoid ongoing AWS charges, delete resources in this order:
 
 ## Author
 
-**[Your Name]**
-Junior Cloud Engineer
-[LinkedIn] · [Hashnode/Medium]
+**Emmanuel Kariithi**
+
+Aspiring Cloud Engineer
+
+[LinkedIn](https://www.linkedin.com/in/emmanuel-kariithi/) · [Medium](https://medium.com/@emmanuelkaringi) . [dev.to](https://dev.to/immah)
