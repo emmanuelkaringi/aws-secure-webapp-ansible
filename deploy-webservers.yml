@@ -1,0 +1,12 @@
+- name: Deploy Web Servers with NGINX
+  hosts: webservers
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - webserver
+
+  tasks:
+    - name: Display server information
+      ansible.builtin.debug:
+        msg: "Configured {{ ansible_hostname }} with IP {{ ansible_default_ipv4.address }}"
